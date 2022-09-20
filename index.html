@@ -520,7 +520,7 @@
       var newimg = document.createElement("img");
       newimg.src = URL.createObjectURL(file);
       const doc = new jsPDF();
-      doc.addImage(newimg, 50, 50, 100, 100);
+      doc.addImage(newimg, 20, 20, 150, 250);
       doc.save(`${name}.pdf`);
     }
   </script>
